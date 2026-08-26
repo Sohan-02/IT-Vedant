@@ -1,0 +1,38 @@
+
+/* * selects all element on t he page and applies the same style universally */
+*{
+    color: red;
+}
+
+
+/* Element selector  target specific element that is selected*/
+
+p{
+
+    color: blue;
+    text-align: center;
+}
+
+h1{
+    color: green;
+}
+
+/* id selector is #  */
+
+#mypara{
+    background-color: red;
+}
+
+/* class selector  . */
+
+.paraclass{
+    background-color: blue;
+    color: white;
+}
+.para2class{
+    font-size: 70px;
+}
+
+#idselector2{
+    color: blueviolet;
+}

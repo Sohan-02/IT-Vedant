@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div p {
+            color: blue;
+        } */
+
+        /* child selector :- (>) affects the direct element of the parent */
+        /* div>p{
+            color: blue;
+        } */
+
+
+        /* Adjecent sybling selector (+) selects the directly adjecent selector */
+        /* div+p{
+            color: blue;
+        } */
+
+
+        /* general sybling selector (~) that styles all the syblings to following element */
+        div~p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Combinator Selector
+    Common combinators include descendant ( ), child (>), adjacent sibling (+), and general sibling (~). -->
+
+    <!-- Descendant Selectors: Targets an element inside another, such as paragraphs inside div . -->
+     
+    <div>
+
+
+        <p>this is para 1</p>
+        <p>this is para 2</p>
+        <p>this is para 3</p>
+        <p>this is para 4</p>
+        
+        <span>
+            <p>this is para 5</p>
+            <p>this is para 6</p>
+            <p>this is para 7</p>
+        </span>
+    
+    </div>
+
+    <p>this is para 8</p>
+    <p>this is para 9</p>
+
+</body>
+</html>
