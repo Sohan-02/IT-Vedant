@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* first-child selects the first child element within
+        its parent, allowing you to style its specificly  */
+        p:first-child{
+            text-align: center;
+            background-color: blue;
+        }
+
+
+        /* last-child style the last child */
+        p:last-child{
+            color: yellowgreen;
+        }
+
+        /* selects element by position in the parent for targeted style and patterns in css */
+        p:nth-child(3){
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <p>This ia para1</p>
+        <p>This ia para2</p>
+        <p>This ia para3</p>
+        <p>This ia para4</p>
+    </div>
+
+    <div>
+        
+        <p>This ia para1</p>
+        <p>This ia para2</p>
+        <p>This ia para3</p>
+        <p>This ia para4</p>
+    </div>
+
+    <div>
+        <p>This ia para1</p>
+        <p>This ia para2</p>
+        <p>This ia para3</p>
+        <p>This ia para4</p>
+    </div>
+    
+</body>
+</html>

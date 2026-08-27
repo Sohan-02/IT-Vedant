@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1 Predence selector 
+        It selects elements that contain a specific attribute
+        */
+        /* a[href]{
+            color: red;
+        } */
+        
+
+        /* 2 Attribue and value 
+        IT target element with a perticuler attribute value*/
+        /* a[href="CombinatorSelector.html"]{
+            color: red;
+        }
+             */
+
+        /* 3 Substring Matching / start with attribute
+         It matches element where the attribute starts */
+        /* a[href^="Comb"]{
+            color: red;
+        } */
+
+
+        /* 4 End with selector 
+        
+        Matches elements whose value ends with a specific string
+        */
+
+        /* img[alt$="age"]{
+            color: red;
+        } */
+
+
+        /* 5 wildcard Selector : it matches the value inbetween string */
+        a[href*="orS"]{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Attribute selector
+     CSS targets elements based on the presence or value
+      -->
+    <a href="CombinatorSelector.html">Home</a>
+    <a href="cssSelector.html">About</a>
+    <a href="">login</a>
+    <a href="">Signin</a>
+    <img src="" alt="demoimage">
+    <img src="" alt="codingimage">
+</body>
+</html>
