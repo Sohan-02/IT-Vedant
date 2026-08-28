@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span::first-letter{
+            color: red;
+            font-size: 100px;
+        }
+
+
+        /* ::selection is used to style the portion of a document that a user has highlited or selected */
+        p::selection{
+            background-color: red;
+            color: bisque;
+        }
+
+        /* First line gets styled  */
+        p::first-line{
+            color: red;
+        }
+
+        /* designs at the before of line */
+        div::before{
+            content: "Hello";
+            color: red;
+        }
+
+        /* designs at the after of line */
+        div::after{
+            content: "redmore";
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+ 
+    <span>this is span</span>
+    <p>This is paragraph tag</p>
+
+    <div>This is div tag </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur illum maiores fugit quod velit. Ducimus facilis blanditiis nesciunt fugiat quis impedit pariatur, ad voluptates veniam perferendis maxime labore aliquid error!</p>
+
+    
+</body>
+</html>

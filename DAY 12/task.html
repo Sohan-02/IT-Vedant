@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: black;
+        }
+        h1{
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 100px;
+           
+        }
+
+        h1::first-letter{
+            color: magenta;
+        }
+
+        p{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        P::selection{
+            background-color: magenta;
+        }
+
+        P::before{
+            content: "🚀";
+            color: magenta;
+        }
+
+        p::after{
+            content: "readmore";
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>GALAXY</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic voluptas optio quibusdam qui, vel reiciendis adipisci vitae expedita, harum iusto fugit saepe repudiandae totam, tempora nostrum. Veniam obcaecati exercitationem enim facilis illum inventore id nihil reprehenderit et quae excepturi quidem quia magnam dolore, earum ad numquam commodi laborum totam! Voluptatibus.</p>
+</body>
+</html>
