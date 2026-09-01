@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-color: aqua;
+            margin: 10px;
+            text-align: center;
+            
+
+        }
+/* 
+        .inlineclass{
+         display: inline;   
+        } */
+
+        .blokelement{
+           display: block; 
+        }
+
+        .noneclass{
+            display: none;
+        }
+
+        .flexclass{
+            display: flex;
+            justify-content: center;
+        }
+   
+         .gridclass{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+    </style>
+</head>
+<body>
+<!-- 
+inline	Displays an element as an inline element (like <span>). Any height and width -->
+
+
+<!-- inline-block	Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values -->
+
+
+    <div class=" box inlineclass">This is block element</div>
+    <div class="box inlineclass">This is block element 2</div>
+
+    <!-- block	Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width -->
+
+    <a href="" class="blokelement">home</a>
+    <a href="" class="blokelement">about</a>
+    <a href="" class="blokelement">login</a>
+    <a href="" class="blokelement">signin</a>
+
+    <!-- none	The element is completely removed -->
+    <a href="" class="noneclass">hello</a>
+
+
+    <!-- flex  Creates a flex container to arrange child elements in row or column with flexible aligment -->
+
+    <div class="flexclass">
+            <div class="box">This if flex1</div>
+            <div class="box">This if flex2</div>
+            <div class="box">This if flex3</div>
+        </div>
+
+
+
+        <!-- Grid 
+         
+        Creates s grid container to arrange elements in row and columns
+        -->
+        <div class="gridclass">
+            <div class="box">This if Grid 1</div>
+            <div class="box">This if Grid 2</div>
+            <div class="box">This if Grid 3</div>
+            <div class="box">This if Grid 4</div>
+        </div>
+
+
+       
+</body>
+</html>
