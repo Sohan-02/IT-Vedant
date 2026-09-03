@@ -5,41 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h2{
-            
-            color: white;
-            display: inline-block;
-        }
+          body {
+        margin: 0;
+    }
+       .navbar{
+                width: 100%;
+                box-sizing: border-box;
+                padding: 0 50px;
 
-        span{
-            color: red;
-        }
+                display: flex;
+                align-items: center;
 
-        .navbar{
-    background-color: black;    
-        }
+                justify-content: space-between;
 
-        a{
-            text-align: right;
-        }
+                background: rgb(0, 0, 0);
+                border-bottom: 1px solid #ddd;
+                }
+            h2{
+                color: white;
+            }
+            span{
+                color: red;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover {
+             color: rgb(155, 154, 154);
+              }
+
+            ul{
+                display: flex;
+                  gap: 20px;
+                list-style: none;
+            }
     </style>
 </head>
 <body>
 
-    <div class="navbar">
     
-    <nav>
-        <h2>Bite<span>Box
-
-    </span></h2>
-    <div>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Content</a>
-        <a href="">Login</a>
-        <a href="">Signup</a>
-        </div>
+    
+    <nav class="navbar">
+        <h2>Bite<span>Box</span></h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Content</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Signup</a></li>
+       
+    </ul>
     </nav>
-</div>
+
 </body>
 </html>
