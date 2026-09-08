@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            background-color: blueviolet;
+            color: antiquewhite;
+            padding: 2px;
+        }
+        
+        .box2{
+            background-color: chocolate;
+            color: white;
+            padding: 2px;
+        }
+
+        /* 780px or over that so  */
+
+        @media screen and (min-width:780px) 
+            {
+
+            .container{
+                display: flex;
+            }
+            .box1{
+                background-color: black;
+            
+            }
+            
+            .box2{
+            color: crimson;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+
+<!--     media queries syntax
+
+    @media [media type] ([media feature]) {
+        /*css rule*/
+    }
+
+    MEDIA TYPES ARE THREE   
+    SCREEN  , PRINT , ALL
+
+    the screen media ype is used to apply styles hata only affect devices with screeen, like computer , tablet and phones
+
+    the print media type in css optimize style for print and print preview
+
+    the all media types css applies styles universally across all devices and media types
+     
+    
+    
+    min width applies after changes
+    max width applies before changes
+
+    min height when its less then size
+    mix height when its more then size
+    -->
+
+     <div class="container">
+        <p class="box1"> 
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae optio consectetur dolores sapiente delectus enim unde repudiandae inventore modi, error architecto autem voluptate ipsam praesentium eius sint recusandae quia tempora.
+        </p>
+
+        <p class="box2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, praesentium. Cupiditate eum reprehenderit, quasi ut ratione unde culpa laboriosam voluptate consequuntur, sed modi suscipit porro doloremque. Aut libero amet at.
+
+        </p>
+
+
+     </div>
+
+</body>
+</html>
