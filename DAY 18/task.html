@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .special-container {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 25px;
+            background-color: #f5f4f4;
+        }
+
+ .special-card{
+   background: #fff;
+   padding: 20px;
+   border-radius: 0px;
+   text-align: center;
+   box-shadow: 0 5px 15px rgb(0, 0, 0, 1);
+   
+}
+
+.label{
+    background: black;
+    color: #fff;
+    border-radius: 10px;
+}
+
+    </style>
+
+
+</head>
+<body>
+    <section class="special-section">
+    <!-- special offer start here  -->
+
+    <h2 class="section-title">Special Day Offer</h2>
+
+    <div class="special-container">
+        <!-- Combo 1 -->
+         <div class="special-card">
+            
+            <h3>Friday Feast</h3>
+            <p>50%OFF on Burgers</p>
+            
+            <p class="label">Use code:FRF150</p>
+         </div>
+
+         <!-- Combo 2 -->
+
+        <div class="special-card">
+            
+            <h3>Saturday Special</h3>
+            <p>Buy 1 Get 1 pizza</p>
+        
+            <p class="label"> Use code: SATPIZZA</p>
+         </div>
+         
+         
+
+         <div class="special-card">
+            
+            <h3>Sunday Treat</h3>
+            <p>Flat 120 OFF</p>
+          
+            <p class="label" >Use code:FR150</p>
+         </div>
+
+    </div>
+</section>
+
+</body>
+</html>
