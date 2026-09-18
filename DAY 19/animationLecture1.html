@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 200px;
+
+            animation-name: moveBox; 
+            /* specifies theb @keyframe anme */
+
+
+            animation-duration: 2s;
+            /* specifies how long the animation takeas */
+
+            animation-iteration-count: infinite;
+            /* specifies how many times it runs */
+
+            animation-delay: 3s;
+            /* Delays the animation  */
+
+            animation-direction: alternate;
+
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation: moveBox 2s infinite alternate; */
+            
+            
+        }
+
+        @keyframes moveBox{
+            from{
+                transform: translateX(0);
+            }
+
+            to{
+                transform: translateX(300px);
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box"></div>
+</body>
+</html>
